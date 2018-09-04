@@ -10,7 +10,18 @@ package ejercicioinscripciones;
  * @author Mudreco
  */
 public class EjercicioInscripciones {
-
+/* El programa fue desarrollado  al mismo tiempo  que yo comence a estudiar java
+    por lo que probablemente existan imperfecciones técnicas y otras malas prácticas
+    (Atributos sin getters setters / Métodos que hacen más de lo que deberían / etc)
+    que iré corrigiendo de a poco a medida que me detenga a revisarlo, no tengo muchas expectativas
+    de que esto ocurra pronto ya que la finalidad principal de este programa era plasmar los conceptos
+    generales que aprendía, y ahora mismo estoy concentrándome en otros proyectos.
+    
+    Sin más que comentar, quiero agradecer a quien esté leyendo este código y estoy más que
+    dispuesto a responder cualquier duda, aclarar ideas, recibir feedback, o simplemente ponerme en
+    contacto con cualquiera que así lo desee.
+    
+    este es mi mail de uso personal: nvo_joel_msn@hotmail.com*/
     public static void main(String[] args) {
         Registro registro = new Registro();
         Ventana_Administrador va = new Ventana_Administrador(registro);
